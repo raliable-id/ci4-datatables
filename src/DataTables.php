@@ -8,7 +8,7 @@ use CodeIgniter\API\ResponseTrait;
 use \Config\Services;
 use \Config\Database;
 
-class DataTables 
+class DataTables
 {
     use ResponseTrait;
 
