@@ -1,12 +1,12 @@
 <?php
 
-namespace Alifbint\Datatables;
+namespace Raliable\Datatables;
 
 use CodeIgniter\HTTP\IncomingRequest;
 use CodeIgniter\HTTP\ResponseInterface;
 use CodeIgniter\API\ResponseTrait;
-use Config\Services;
-use Config\Database;
+use \Config\Services;
+use \Config\Database;
 
 class Datatables 
 {

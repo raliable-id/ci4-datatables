@@ -19,7 +19,7 @@ In your controller, load the DataTables library and configure it as needed:
 
 namespace App\Controllers;
 
-use Alifbint\DataTables\DataTables;
+use \Raliable\DataTables\DataTables;
 use CodeIgniter\API\ResponseTrait;
 
 class DataTableController extends BaseController
