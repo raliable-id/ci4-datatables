@@ -1,0 +1,22 @@
+{
+    "name": "raliable/codeigniter4-datatables",
+    "description": "A DataTables library for CodeIgniter 4",
+    "license": "MIT",
+    "type": "library",
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "codeigniter4/framework": "^4.0"
+    },
+    "authors": [
+        {
+            "name": "Alif Bintoro",
+            "email": "alifbintoro77@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Raliable\\DataTables\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
