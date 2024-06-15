@@ -1,5 +1,5 @@
 {
-    "name": "raliable/codeigniter4-datatables",
+    "name": "raliable/ci4-datatables",
     "description": "A DataTables library for CodeIgniter 4",
     "license": "MIT",
     "type": "library",

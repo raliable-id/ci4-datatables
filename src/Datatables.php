@@ -1,6 +1,6 @@
 <?php
 
-namespace Raliable\Datatables;
+namespace Raliable\DataTables;
 
 use CodeIgniter\HTTP\IncomingRequest;
 use CodeIgniter\HTTP\ResponseInterface;
@@ -8,7 +8,7 @@ use CodeIgniter\API\ResponseTrait;
 use \Config\Services;
 use \Config\Database;
 
-class Datatables 
+class DataTables 
 {
     use ResponseTrait;
 
