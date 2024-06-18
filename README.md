@@ -7,7 +7,7 @@ This library provides a simple and efficient way to implement server-side proces
 You can install this library via Composer. Run the following command in your project directory:
 
 ```bash
-composer require alifbint/codeigniter4-datatables
+composer require raliable/ci4-datatables
 ```
 
 
