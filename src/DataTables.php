@@ -103,8 +103,8 @@ class DataTables
 
         if ($searchValue) {
             $this->builder->groupStart();
-            foreach ($columns as $idx => $column) {
-                if ($column['searchable'] === true && !empty($column['name'])) {
+            foreach ($columns as $column) {
+                if (filter_var($column['searchable'], FILTER_VALIDATE_BOOLEAN) && !empty($column['name'])) {
                     $this->builder->orLike($column['name'], $searchValue);
                 }
             }

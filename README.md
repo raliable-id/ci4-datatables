@@ -72,10 +72,10 @@ Create a view file (e.g., `datatable_view.php`) to display the DataTable:
                     }
                 },
                 "columns": [
-                    { "data": "id" },
-                    { "data": "name" },
-                    { "data": "address" },
-                    { "data": "email" }
+                    { "data": "id", "bSortable": false, "searchable": false },
+                    { "data": "name", "bSortable": true, "searchable": true },
+                    { "data": "address", "bSortable": false, "searchable": true },
+                    { "data": "email", "bSortable": true, "searchable": true }
                 ]
             });
         });
